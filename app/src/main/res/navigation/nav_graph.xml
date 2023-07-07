@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cardGridFragment">
+
+    <fragment
+        android:id="@+id/cardGridFragment"
+        android:name="tw.edu.ncku.iim.rsliu.setcard.CardGridFragment"
+        android:label="cardGridFragment" >
+        <action
+            android:id="@+id/action_cardGridFragment_to_resultGridFragment"
+            app:destination="@id/historyGridFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyGridFragment"
+        android:name="tw.edu.ncku.iim.rsliu.setcard.HistoryGridFragment"
+        android:label="historyGridFragment">
+        <action
+            android:id="@+id/action_resultGridFragment_to_cardGridFragment"
+            app:destination="@id/cardGridFragment" />
+    </fragment>
+</navigation>

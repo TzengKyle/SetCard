@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwitchTo" />
+
+
+    <fragment
+        android:id="@+id/nav_host_fragment_container"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/switch1"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="SwitchTo" />-->
+    <!--    </LinearLayout>-->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--        <fragment-->
+    <!--            android:id="@+id/cardGridFragment"-->
+    <!--            android:name="tw.edu.ncku.iim.rsliu.setcard.cardGridFragment"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content" />-->
+    <!--    </LinearLayout>-->
+
+
+</LinearLayout>
+
+    <!--    <tw.edu.ncku.iim.rsliu.setcard.SetCardView-->
+    <!--        android:id="@+id/cardView"-->
+    <!--        app:shapeCount="2"-->
+    <!--        app:color= "@color/green"-->
+    <!--        app:shape="OVAL"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+
+    <!--<tw.edu.ncku.iim.rsliu.setcard.SetCardView-->
+    <!--android:id="@+id/cardView"-->
+    <!--app:shapeCount="2"-->
+    <!--app:color= "@color/green"-->
+    <!--app:shape="OVAL"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
